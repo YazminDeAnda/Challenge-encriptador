@@ -1,5 +1,5 @@
 # Alura Challenge |One Oracle | Proyecto de encriptación y desencriptación de texto 🚀
-##Version Beta 1.0
+## Version Beta 1.0
 
 ## **ÍNDICE**
 
@@ -7,7 +7,7 @@
 * [2. llaves de encriptación q](#)
 * [3. Requisitos](#)
 * [4. Link a Demo](#)
-* [5. Funciones en desarrollo]
+* [5. Funciones en desarrollo](*)
 
 ****
 
