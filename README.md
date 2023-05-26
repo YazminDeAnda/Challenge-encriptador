@@ -3,7 +3,7 @@
 
 ## **ÍNDICE**
 
-* [1. Intro](#)
+* [1. Introducción](#)
 * [2. llaves de encriptación](#)
 * [3. Requisitos](#)
 * [4. Link a Demo](#)
@@ -11,7 +11,7 @@
 
 ****
 
-## 📋 1. Intro
+## 📋 1. Introducción
 
 Este encriptador utiliza HTML, CSS, JavaScript para encriptar y desencriptar texto. La encriptación se realiza mediante la sustitución de vocales y solo acepta letras minúsculas y no se permiten acentos ni caracteres especiales.
 Se incluyo la funcionalidad extra de un botón que copia el texto encriptado o desencriptado para facilitar la transferencia del mensaje.
