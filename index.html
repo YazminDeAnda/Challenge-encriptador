@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg==" crossorigin="anonymous" referrerpolicy="no-referrer" />            
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@200;400&display=swap" rel="stylesheet">
+    <title>Encriptador</title>
+</head>
+
+<body>
+
+    <header>
+        <img class="Logo-a" src="Img/Logo.png"  alt="logo de alura">
+    </header>
+
+    <main>
+        <section class="texArea">
+            <textarea class="inicio-texarea" id="inicioTexarea" cols="30" rows="10" placeholder="Ingresa el texto que desees encriptar o desencriptar."></textarea>
+            <div>
+                <h6 class="restricciones"><i class="fa-solid fa-circle-exclamation"></i> Solo letras minúsculas, sin acentos ni caracteres especiales</h3>
+            </div>
+
+            <div class="botones">
+                <button class="bt-encriptar" onclick="encriptar()">Encriptar</button>
+                <button class="bt-desencriptar" onclick="desencriptar()">Desencriptar</button>
+            </div>
+        </section>
+        
+        <section class="resultado">
+            <div class="primera-vista" id="primeraVista">
+                <img class="img-muñeco" src="Img/Muñeco.png" alt="imagen de muñeco investigador">
+                    <div>
+                        <p class="p-placebo">Ningún mensaje fue encontrado</p>
+                    </div>
+            </div>
+            <div class="vista-resultado" id="vistaResultado">
+                <p class="resultado-final" id="reusltadoFinal"></p>
+                <div>
+                    <button class="bt-copiar" id="copy" onclick="copiar()">Copiar</button>
+                </div>
+            </div>
+        </section>
+    </main>
+<footer>
+    <p class="copyright">&copy Copyright Yazmin De Anda Almanzar-2023</p>
+</footer>
+<script src="funcion.js"></script>
+</body>
+
+</html>
