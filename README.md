@@ -33,7 +33,7 @@ Las "llaves" de encriptación que se utilizaran son las siguientes:
 ✅ Un botón que copie el texto encriptado/desencriptado para la sección de transferencia, o sea que tenga la misma funcionalidad del ctrl+C o de la opción "copiar" del menú de las aplicaciones.
  
  ## 4.Link a Demo
- Aquí puedes visualizar mi proyecto terminado: [Encriptador d etexto](https://darling-lebkuchen-d45503.netlify.app/)
+ Aquí puedes visualizar mi proyecto terminado: [Encriptador de texto](https://darling-lebkuchen-d45503.netlify.app/)
 
  ## 5. Funciones en desarrollo
  Web responsiva
